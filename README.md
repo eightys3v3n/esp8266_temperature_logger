@@ -1,6 +1,8 @@
 ESP8266 Temperature Logger
 
-Runs on an ESP8266 Arduino device, posts the temperature of a DS18B20 sensor to an MQTT server utilizing 2.4GHz WiFi.  
+# What it does
+Runs on an ESP8266 Arduino device, posts the temperature of a DS18B20 sensor to an MQTT server utilizing 2.4GHz WiFi every defined interval.  
+
 # Usage
 To configure, change the MQTT_SERVER, MQTT_USER, MQTT_PASS, SSID, PASSWORD defines in the source file.
 Compile and send to ESP8266 utilizing Arduino IDE.  
