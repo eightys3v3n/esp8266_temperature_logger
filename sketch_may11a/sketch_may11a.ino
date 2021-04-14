@@ -7,17 +7,17 @@
 // Which pin to use as the data pin on the temperature sensor. On an ESP8266 pin 5 is labelled as D1.
 #define ONE_WIRE_BUS 5
 
-#define MQTT_PORT 8883
-#define MQTT_SERVER "HOSTNAME.com"
-#define MQTT_USER "USERNAME"
-#define MQTT_PASS "PASSWORD"
-#define TOPIC "temperatures/temp6"
+#define MQTT_PORT 1883
+#define MQTT_SERVER "dad.eighty7.ca"
+#define MQTT_USER "GreenHouse"
+#define MQTT_PASS "sc3harLNVHC"
+#define TOPIC "temperatures/green_house"
 #define ID "temp_monitor_6"
 
-#define SSID "2.4GHzWiFiSSID"
-#define PASSWORD "WiFiPassword"
+#define SSID "PLU"
+#define PASSWORD "momiscoolya"
 
-#define POST_INTERVAL 60000
+#define POST_INTERVAL 1000
 
 
 // Setup a oneWire instance to communicate with any OneWire devices 
